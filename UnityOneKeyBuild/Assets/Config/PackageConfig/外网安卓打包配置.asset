@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ce4606729762d40b5fd6aca85f6fe1, type: 3}
+  m_Name: "\u5916\u7F51\u5B89\u5353\u6253\u5305\u914D\u7F6E"
+  m_EditorClassIdentifier: 
+  platformType: 0
+  PackagePath: C:/Users/Administrator/Desktop/APK
+  netConfig: {fileID: 11400000, guid: 4908d50093508d4448c83b888544603c, type: 2}
+  companyName: hyz
+  productName: "\u98DE\u9A6C\u6D41\u661F"
+  appIconPath: Assets/GameIcon/icon_512.png
+  scriptingDefine: NET45;ILRuntime1;__MICROSPLAT__;AMPLIFY_SHADER_EDITOR
+  applicationIdentifier: com.hyz.HorseMatch
+  bundleVersion: 1.0
+  androidBundleVersionCode: 4
+  androidArchitecture: 1
+  allowUnsafeCode: 1
+  scriptingBackend: 0
+  AppleDeveloperTeamID: 

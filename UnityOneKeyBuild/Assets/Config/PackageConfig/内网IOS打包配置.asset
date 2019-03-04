@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ce4606729762d40b5fd6aca85f6fe1, type: 3}
+  m_Name: "\u5185\u7F51IOS\u6253\u5305\u914D\u7F6E"
+  m_EditorClassIdentifier: 
+  isUsedLocalAB: 1
+  buildOptions: 524288
+  buildAssetBundleOptions: 256
+  platformType: 1
+  PackagePath: /Users/charles/Desktop/IPA
+  netConfig: {fileID: 11400000, guid: 3977883eb20d88c46a85290d9593fcd7, type: 2}
+  companyName: hyz
+  productName: "\u98DE\u9A6C\u6D41\u661F"
+  appIconPath: Assets/GameIcon/icon_512_mac.jpg
+  scriptingDefine: NET45;ILRuntime;__MICROSPLAT__;AMPLIFY_SHADER_EDITOR
+  applicationIdentifier: com.hyz.g05.horserun
+  bundleVersion: 1.0
+  androidBundleVersionCode: 0
+  androidArchitecture: 1
+  allowUnsafeCode: 1
+  scriptingBackend: 1
+  AppleDeveloperTeamID: ZJ3U448NKH
