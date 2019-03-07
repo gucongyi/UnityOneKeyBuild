@@ -20,5 +20,12 @@ public class PackageConfigEditor : Editor
         packageConfig.buildOptions = (BuildOptions)EditorGUILayout.EnumFlagsField("BuildOptions(可多选): ", packageConfig.buildOptions);
         packageConfig.buildAssetBundleOptions= (BuildAssetBundleOptions)EditorGUILayout.EnumFlagsField("BuildAssetBundleOptions(可多选): ", packageConfig.buildAssetBundleOptions);
         serializedObject.ApplyModifiedProperties();
+		//当Inspector 面板发生变化时保存数据
+        if (GUI.changed)
+        {
+            EditorUtility.SetDirty(target);
+            AssetDatabase.Refresh();
+            AssetDatabase.SaveAssets();
+        }
     }
 }
